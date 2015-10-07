@@ -1,0 +1,11 @@
+<!-- Indices written at Wed, 15 Apr 2015 16:36:28 EDT -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="UserContacts" ancestor="false" source="auto">
+        <property name="user_email" direction="asc"/>
+        <property name="contact_name" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
