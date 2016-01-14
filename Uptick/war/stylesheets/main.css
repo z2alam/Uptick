@@ -1,0 +1,46 @@
+h1 { 
+    display: block;
+    font-size: 4em;
+    font-weight: bold;
+    font-family:monospace;
+    padding-left:20px;
+}
+
+h2 { 
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    font-family:monospace;
+    width:500px;
+    color:#740909;
+}
+
+div.videoplayer {
+    border: 1px solid #1D740C;
+    height: 390px;
+    width: 480px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+h3 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: bold;
+    font-family:monospace;
+    padding-left:2%;
+    float:center;
+    vertical-align:middle;
+}
+
+html,body {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}

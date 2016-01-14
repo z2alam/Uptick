@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/main.css">
+  
+  <script>
+  	function showVideoDiv() {
+   		document.getElementById('playDiv').style.display = "block";
+  	}
+  </script>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+  	<table style="padding-left:100px; margin-top: 0.67em;">
+  		<tr>
+  			<td> <img src="images/icon1.png" alt="logo" height="60" width="60" /> </td>
+  			<td> <h1> <span> UpTick! &nbsp </span> </h1> </td>
+			<td> <h2> $0 Commission Trading</h2> </td>
+		</tr>
+	</table>
+	
+	<div style="width:550px; padding-left:100px">
+		<table style="width:450px; margin-top:50px; margin-bottom:10px" align="center">
+			<tr>
+				<td> <span style="font-size:2em; font-weight:bold; font-family:monospace;"> Watch Introduction Video </span> </td>
+		    	<td> <input type="image" name="play" value="show-div" onClick="showVideoDiv()" src="images/Play.png" alt="logo" height="60" width="60" style="float:right"/> </td>
+			</tr>
+		</table>
+		<div id="playDiv" style="display:none; width:450px; height:350px; margin:auto;">
+			<iframe width="420" height="315" src="http://www.youtube.com/embed/TTYUYR0KwT0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+  </body>
+</html>
